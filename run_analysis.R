@@ -1,4 +1,4 @@
-require(doBy)
+require(plyr)
 data_directory <- '.'
 feature_names <- read.table(file.path(data_directory, "features.txt"), col.names=c("ord", "feature_names"))
 activity_labels <- read.table(file.path(data_directory, "activity_labels.txt"), col.names=c("ord", "label"))
